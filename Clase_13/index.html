@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>SASS II</title>
+  </head>
+  <body>
+    <!-- if( condicion ){codigo que se ejecuta si se cumple}
+    else{codigo} 
+    -->
+
+    <button class="button">Click Me</button>
+
+    <!-- ===================================
+    =               @for                   =
+    ==================================== -->
+
+    <div class="container-item">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+
+    <!-- ===================================
+    =               @each                =
+    ==================================== -->
+
+    <div class="botones-container">
+      <a href="#" class="button-red">Botón Rojo</a>
+      <a href="#" class="button-blue">Botón Azul</a>
+      <a href="#" class="button-green">Botón Verde</a>
+    </div>
+
+    <!-- ===================================
+    =               map                   =
+    ==================================== -->
+
+    <div class="social-buttons">
+      <a href="#" class="social-button-facebook">Facebook</a>
+      <a href="#" class="social-button-twitter">Twitter</a>
+      <a href="#" class="social-button-instagram">Instagram</a>
+      <a href="#" class="social-button-linkedin">LinkedIn</a>
+      <a href="#" class="social-button-youtube">YouTube</a>
+    </div>
+
+    <!-- ===================================
+    =               @mixin                =
+    ==================================== -->
+
+    <div class="tarjeta">
+      <h2>Tarjeta Normal</h2>
+      <p>Contenido de la tarjeta normal.</p>
+    </div>
+
+    <div class="tarjeta-destacada">
+      <h2>Tarjeta Destacada</h2>
+      <p>Contenido de la tarjeta destacada.</p>
+    </div>
+
+    <!-- ===================================
+    =               @extend                =
+    ==================================== -->
+    <div>
+      <button class="boton">comprar</button>
+      <button class="boton boton--aceptar">Aceptar</button>
+      <button class="boton boton--cancelar">Cancelar</button>
+    </div>
+  </body>
+</html>
